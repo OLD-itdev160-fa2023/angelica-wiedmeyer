@@ -10,8 +10,8 @@ greetingEl.textContent = greeting;
 var price = 60,
     studentDiscount = .10,
     studentPrice = price - (price * studentDiscount),
-    priceEl = document.getElementById(price),
-    studentPriceEl = document.getElementById(studentPrice);
+    priceEl = document.getElementById('price'),
+    studentPriceEl = document.getElementById('student-price');
 
     priceEl.textContent = price.toFixed(2);
     studentPriceEl.textContent = studentPrice.toFixed(2);
