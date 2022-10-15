@@ -1,0 +1,14 @@
+body{
+	margin: auto 30px;
+	font-family:font-family: 'Montserrat', sans-serif;
+	}
+
+#credits { 
+    font-style: : italic;
+    font-size: .75em;
+    margin-bottom: 20px;
+}
+
+#header-image {
+    width: 80%;
+}
